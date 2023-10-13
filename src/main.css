@@ -1,0 +1,24 @@
+.banner{
+    height: 100vh;
+    background-image: var(--bg-img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    font-family: var(--font-2st);
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.logo{
+    height: 255px;
+    width: 770px;
+    background-size: contain;
+    background-image: url(/src/img/onepiece_official-logo.png);
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    position: relative;
+}
