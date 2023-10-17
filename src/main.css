@@ -1,17 +1,41 @@
-.banner{
-    height: 100vh;
-    background-image: var(--bg-img);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.titulo{
-    font-family: var(--font-2st);
-    font-size: 55px;
+.banner{
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.arco__ {
+    display: flex;
+    flex-direction: column;
+
+}
+.arco__logo{
+    width: 500px;
+    position: cover;
+
+}
+.arco__descricao{
+    font-size: 19px ;
+    color: var(--color-font-1st) ;
+    line-height: ;
+    padding: 15px 0 0 10px;
     position: relative;
+    bottom: 4rem;
+    left: 1rem;
+}
+.titulo{
+    font-family: var(--font-2st);
+    font-size: 4em;
+    position: relative;
+    top: 2.70em;
+    left: 4em;
+    color: var(--color-font-5st);
+    text-shadow:
+    -1px -1px 0 var(--color-font-1st);
+
+
 }
 .logo{
     height: 255px;
@@ -21,4 +45,11 @@
     /*background-position: center;*/
     background-repeat: no-repeat;
     position: relative;
+}
+.banner__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    
 }
