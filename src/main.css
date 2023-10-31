@@ -4,11 +4,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 40%;
+    position: relative;
+    top: 60px;
+    
+    
 }
 .arco__ {
     display: flex;
     flex-direction: column;
+    
 
 }
 .arco__logo{
@@ -17,13 +22,15 @@
 
 }
 .arco__descricao{
-    font-size: 19px ;
-    color: var(--color-font-1st) ;
-    line-height: ;
-    padding: 15px 0 0 10px;
+    font-size: 17px ;
+    color: var(--color-font-1st);
+    padding: 16px 0 0 10px;
     position: relative;
-    bottom: 4rem;
-    left: 1rem;
+    top: -3.5rem;
+    left: 2rem;
+    text-shadow: -1.5px -1px 0 var(--color-black);
+    word-spacing: 3px;
+
 }
 .titulo{
     font-family: var(--font-2st);
@@ -33,7 +40,8 @@
     left: 4em;
     color: var(--color-font-5st);
     text-shadow:
-    -1px -1px 0 var(--color-font-1st);
+    -1px -1px 0 var(--off-white);
+    letter-spacing: 5px;
 
 
 }
@@ -48,8 +56,56 @@
 }
 .banner__btn{
     display: flex;
+    align-items:justify;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    left: 2.5rem;
+    top: -2rem;
+    /*border: 2px solid red; /* Um dica interessante de visualização, utilizar uma borda para contornar o conteúdo */
+}
+
+.banner__btn button{
+    padding: .5rem;
+    width: 220px;
+    height:40px;
+    gap: 21px;
+    font-size: 0.9em;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    gap: 70px;
+    direction: rtl;
+    border-radius: 3px;
+}
+   
+.fa-circle-play{
+    font-size: 18px;
+    margin-left: 15px;
+    align-items: center;
     
+}
+
+.fa-list{
+    font-size: 18px;
+    margin-left: 15px;
+    align-items: center;
+}
+.banner__btn-play{
+    color: var(--color-font-1st);
+    font-weight: 700;
+    background-color: var(--color-font-2st);
+}
+
+.banner__btn-play:hover{
+    background-color: var(--color-2st);
+    transition: ease 0.4s;
+}
+
+.banner__btn-info{
+    color: var(--color-black);
+    background-color: var(--color-1st);
+}
+.banner__btn-info:hover{
+    color: var(--color-black);
+    background-color: var(--off-white);
+    transition: ease 0.4s ;
 }

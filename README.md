@@ -76,4 +76,21 @@ Para criar o contorno no Títilo - (arco) == Porém existe uma forma abreviada d
 
 Para o resultado desejado, utilizei o atributo "text-shadow", por conta da sua versatiidade. 
 
+      =============  31/10/23 Comeback =========> 
+      Após um periodo afastado devido aos trabalhos da faculdade estou rotmando com projeto,
+      Irie finalizar os bottons e comecçar a desenvolver a barra de navegação.
+
+-----UpDate 31/10/23
+
+Finalizei o banner, e seus devidos button e comecei a desenvolver o
+ <header nav> 
+
+ Dica:: Construa a ideia primeiro sem se prender aos detalhes, cada elemento e seu devido lugar, após isso se volte ao detalhes. 
+
+  * Foca sua atenção em um ponto de cada.  
+
+
+  
+
+
 

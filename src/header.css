@@ -1,0 +1,7 @@
+.barra-nav__container{
+    border: 1px solid red;
+    color: var(--color-font-1st);
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
