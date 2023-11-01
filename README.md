@@ -1,45 +1,31 @@
-            Desenvolvendo um página igual a da netflix - 7DaysOfCode
-
-Estou utilizando header para desenvolver toda a parte de navegação do menu. 
-
-        ========= TAFERA DE HOJE #01 - 12/10/23
-        =================>=>=>
+            Desenvolvendo um página com referência a NETFLIX - 7DaysOfCode
 
 
-    Montando toda a estrutura principal do site, analisando a imagem de referência e montando a ideia. 
+* As atualizações esta organizado a partir das atualizações mais recentes.
+            
+    =============  TAREFA DE HOJE #03 - 31/10/23 Comeback =========> 
 
-* A minha ideia é ter uma plataforma dedicada ao anime One Piece, com suas temporadas, filmes, ovas e especiais. 
+        Após um periodo afastado devido aos trabalhos da faculdade estou rotmando com projeto, irei finalizar os bottons e comecçar a desenvolver a barra de navegação.
 
-* Montar o banner de destaque da página.
+-----UpDate 31/10/23
 
-Importei uma font do One Piece com o formato .ttf 
-Ao invés de colocar no index, fiz o catch (captura) dentro do CSS --->->-> Leia o código para entender 
+Finalizei o banner, e seus devidos button e comecei a desenvolver o
+ <header nav> 
 
-    Icon no head -->->-> 
-    Através da tag <link rel="icon" type="image/png" href="">
+ Dica:: Construa a ideia primeiro sem se prender aos detalhes, cada elemento e seu devido lugar, após isso se volte ao detalhes. 
 
-  * Realizei a configuração padrão para exibir uma imagem em fullscreen dentro do CSS. 
+  * Foca sua atenção em um ponto de cada.  
 
-  [Como será uma plataforma que terá muita repetição, estruturei breviamente as classes:]
-  
-  * Arcos (Nome da temporada) = .arco__ titulo /
-                                 .arco__ logo (logo do anime )
-    Descrição da arco = .arco__descricao.
+Estou utilizando header para desenvolver toda a parte de navegação do menu.
 
-  {Criei uma div para conter o logo do anime e o título do arco e realizar a organização dos itens.}
- 
-  * Filmes = .movie__ titulo / .movie__img
-    Descrição dos filmes = .movie__descricao
+----Update2
 
-  * Palavras destaque na descrição = .descricao__destq (estabeler padrão)
-  
- 
-        Lista de FONTs do projeto: 
-* Lato - GoogleFonts
-* Gabarito - GoogleFonts
-* OnePiece font - Internet/arquivo ttf
+* Barra de navegação finalizada. Foi um desafio bem bacana pois pude trabalhar melhor com icons e li's ; aproveitei e dei um acabamento no banner, refinamento. 
 
-        =============== TAFERA DE HOJE #02 - 13/10/23 =================>=>=>
+
+
+
+    =============== TAFERA DE HOJE #02 - 13/10/23 =================>=>=>
 
  Os buttons não estavam me agradando, anteriomente tinha colocado como <a> como forma de acessar as "Mais informações", entretando após estudar um pouco ao longo do dia alterei para ambos serem um <button>. 
 
@@ -76,18 +62,43 @@ Para criar o contorno no Títilo - (arco) == Porém existe uma forma abreviada d
 
 Para o resultado desejado, utilizei o atributo "text-shadow", por conta da sua versatiidade. 
 
-      =============  31/10/23 Comeback =========> 
-      Após um periodo afastado devido aos trabalhos da faculdade estou rotmando com projeto,
-      Irie finalizar os bottons e comecçar a desenvolver a barra de navegação.
 
------UpDate 31/10/23
+    ========= TAFERA DE HOJE #01 - 12/10/23 =================>=>=>
 
-Finalizei o banner, e seus devidos button e comecei a desenvolver o
- <header nav> 
 
- Dica:: Construa a ideia primeiro sem se prender aos detalhes, cada elemento e seu devido lugar, após isso se volte ao detalhes. 
+    Montando toda a estrutura principal do site, analisando a imagem de referência e montando a ideia. 
 
-  * Foca sua atenção em um ponto de cada.  
+* A minha ideia é ter uma plataforma dedicada ao anime One Piece, com suas temporadas, filmes, ovas e especiais. 
+
+* Montar o banner de destaque da página.
+
+Importei uma font do One Piece com o formato .ttf 
+Ao invés de colocar no index, fiz o catch (captura) dentro do CSS --->->-> Leia o código para entender 
+
+    Icon no head -->->-> 
+    Através da tag <link rel="icon" type="image/png" href="">
+
+  * Realizei a configuração padrão para exibir uma imagem em fullscreen dentro do CSS. 
+
+  [Como será uma plataforma que terá muita repetição, estruturei breviamente as classes:]
+  
+  * Arcos (Nome da temporada) = .arco__ titulo /
+                                 .arco__ logo (logo do anime )
+    Descrição da arco = .arco__descricao.
+
+  {Criei uma div para conter o logo do anime e o título do arco e realizar a organização dos itens.}
+ 
+  * Filmes = .movie__ titulo / .movie__img
+    Descrição dos filmes = .movie__descricao
+
+  * Palavras destaque na descrição = .descricao__destq (estabeler padrão)
+  
+ 
+        Lista de FONTs do projeto: 
+* Lato - GoogleFonts
+* Gabarito - GoogleFonts
+* OnePiece font - Internet/arquivo ttf
+
 
 
   
