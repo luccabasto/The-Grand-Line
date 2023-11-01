@@ -12,37 +12,66 @@
 }
 .arco__ {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: justify;
     
 
 }
 .arco__logo{
-    width: 500px;
-    position: cover;
+    width: 250px;
+    object-fit:cover;
+    align-content: flex-start;
+    position: relative;
+    right: 22.5rem;
+    top: 4.85rem;
+    
 
+}
+
+.logo__txt{
+    color: var(--off-white);
+    font-family: var(--font-3st);
+    font-weight: 300;
+    word-spacing: 5px;
+    position: relative;
+    right: 23.5em;
+    top: 7.3rem;
+    font-size: 1rem;
+    text-wrap: nowrap;
+    text-transform:lowercase ;
 }
 .arco__descricao{
     font-size: 17px ;
     color: var(--color-font-1st);
-    padding: 16px 0 0 10px;
+    padding: 28px 0 20px 10px;
     position: relative;
-    top: -3.5rem;
+    top: 4rem;
     left: 2rem;
     text-shadow: -1.5px -1px 0 var(--color-black);
     word-spacing: 3px;
+    
 
 }
 .titulo{
     font-family: var(--font-2st);
-    font-size: 4em;
+    font-size: 2.7em;
     position: relative;
-    top: 2.70em;
-    left: 4em;
-    color: var(--color-font-5st);
+    bottom: -9.5rem;
+    left: 2.8rem;
+    color: var(--color-black);
     text-shadow:
     -1px -1px 0 var(--off-white);
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    text-wrap: nowrap;
+    font-weight: 700;
+}
 
+.titulo span{
+    font-family: var(--font-4st);
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: justify;
+    color: var(--color-font-5st);
 
 }
 .logo{
@@ -61,7 +90,7 @@
     gap: 30px;
     position: relative;
     left: 2.5rem;
-    top: -2rem;
+    top: 4rem;
     /*border: 2px solid red; /* Um dica interessante de visualização, utilizar uma borda para contornar o conteúdo */
 }
 
@@ -74,7 +103,7 @@
     text-align: center;
     align-items: center;
     direction: rtl;
-    border-radius: 3px;
+    border-radius: 3.7px;
 }
    
 .fa-circle-play{

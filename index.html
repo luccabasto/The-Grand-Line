@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streming Plataform</title>
 
-    <link rel="icon" type="image/png" href="src/img/icon_head.png">
+    <link rel="icon" type="image/png" href="src/img//icon__head.png">
     <link rel="stylesheet" href="../src/styles.css">
     <!--import font 1st-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Bebas+Neue&family=Phudu&family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/ee7db11a14.js" crossorigin="anonymous"></script>
     
@@ -21,16 +21,39 @@
         <div class="app__hero">
             <header>
                 <div class="barra-nav__container">
+                    <div class="nav-img__container">
+                        <a href="#"><img src="src/img/icon_header.png" alt="bandeira com o simbolo do chapéu de palha" class="nav__img"></a>
+
+                        <h1 class="nav__title">The Grand Line</h1> <!--Aqui entrará o icon-->
+                    </div><!--nav-img__container-->
                     
-                    <h1 class="nav__icon"><i></i>The Grand Line</h1> <!--Aqui entrará o icon-->
-                    <nav class="nav__">
-                        <ul class="nav__list">
-                            <li class="nav__itens"><a href="#">Arcos</a></li>
-                            <li class="nav__itens"><a href="#">Filmes</a></li>
-                           <!---- <li><a href="#">Busca</a></li>> <!-O quão dificil seria fazer uma área de busca?-->
-                            <li class="nav__itens"><a href="#">Bibliográfia</a></li>
-                        </ul><!--nav__list-->
-                    </nav><!--nav__ -->
+                    <div class="nav-list"> 
+
+                        <div class="nav-menu__left">
+                            <nav class="nav__left">
+                                <ul class="menu__left">
+                                    <li class="menu__itens"><a href="#">Arcos</a></li>
+                                    <li class="menu__itens"><a href="#">Filmes</a></li>
+                               <!---- <li><a href="#">Busca</a></li>> <!-O quão dificil seria fazer uma área de busca?-->
+                                    <li class="menu__itens"><a href="#">Minha lista</a></li>  
+                                </ul><!--menu__left-->
+                            </nav> <!--nav__left-->
+                        </div><!--nav-menu__left-->
+
+                        <div class="nav-menu__right">
+                            <ul class="nav-list__right">
+                                <li class="menu__itens"><i class="fas fa-search"></i></li>
+                                <li class="menu__itens"><i class="fas fa-bell"></i></li>
+                                <li class="menu__user">
+                                    <img src="/src/img/user_id01.png" class="user-id" alt="Avatar usuário"/>
+                                    <i class="fas fa-sort-down"></i>
+                                </li>
+                            </ul>
+
+                        </div> <!--nav-menu__right-->
+                    
+                </div><!--nav-list-->
+
                 </div> <!-- barra-nav__container-->
 
 
@@ -40,14 +63,14 @@
             <main>
                 <div class="banner">
                     <div class="arco__ ">
-                        <h2 class="arco__ titulo">Arco: MarineFord<h2>
+                        <h2 class="arco__ titulo">Arco: <span>MarineFord</span><h2>
                         <img class="arco__logo" src="/src/img/onepiece_official-logo.png" alt="benner poster do arco de marineford"/>
-                       
+                        <h3 class="logo__txt"> - série</h3>
                     </div> <!--arco__-->
     
                     <p class="arco__descricao">Após falhar na missão de alcaçar <span class="descricao__destaq">Ace</span>, antes que ele fosse tranferido para Marineford, 
                     Luffy e os outros fugitivos de <span class="descricao__destaq">Impel Down</span> 
-                    partem para resgatar Ace em Marineford, a base do Quartel General da Marinha. Com altas probabilidades de não conseguirem completar a missão de resgatar, a vinda ameaçadora de <span class="descricao__destaq">Barba Branca</span>, e as segundas intenções de piratas que desejam derrubar o Yonkou,Luffy se esforca para se aproximar do seu sonho nesse embate titânico de poderes.</p>
+                    partem para resgatar Ace em Marineford, a base do Quartel General da Marinha. Com altas probabilidades de não conseguirem completar a missão de resgatar, a vinda ameaçadora de <span class="descricao__destaq">Barba Branca</span>, e as segundas intenções de piratas que desejam derrubar o Yonkou, Luffy se esforca para se aproximar do seu sonho nesse embate titânico de poderes.</p>
     
                     <div class="banner__btn">
                         <button type="submit" class="banner__btn-play">

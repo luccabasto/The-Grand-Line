@@ -1,7 +1,95 @@
 .barra-nav__container{
-    border: 1px solid red;
+    width: 99%;
+   /* border: 1px solid red;*/ 
     color: var(--color-font-1st);
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-wrap: nowrap;
+
+}
+.nav-img__container{
+    position: relative;
+    display:flex;
+    justify-items:center;
+    align-items: center;
+    left: 2rem;
+
+}
+
+
+.nav__img{
+    width: 80px;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.nav__title{
+    font-size: 1.8rem;
+    font-family:one-piece-font;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    font-size: 14px;
+    color:  rgba(255, 255, 255, 0.697);
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-menu__left ul li{
+    padding-right: 0.90rem;
+    align-items: center;
+    position: relative;
+    left: 4rem;
+}
+
+.nav-menu__left ul a:hover{
+    color: var(--color-font-3st);
+    transition: all .3s;
+}
+
+.nav-menu__right{
+    font-size: 1rem;
+}
+
+.nav-menu__right ul li{
+    padding-right: 1.2rem;    
+
+}
+
+.nav-menu__right ul li:hover{
+    color: var(--color-font-1st);
+    transition: all .5s;
+}
+
+
+.menu__itens a{
+    color: rgba(255, 255, 255, 0.697);
+    margin: .5rem;
+
+}
+
+.menu__user{
+    display: flex;
+    align-items: center;
+}
+
+.user-id{
+    width: 3rem;
+    background-color: darkolivegreen;
+    object-fit: fill;
+    margin: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
 }

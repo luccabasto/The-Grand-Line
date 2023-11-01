@@ -25,14 +25,16 @@ input,select{vertical-align:middle}
     --bg-img: url(/src/img/marine_ford_capa.jpg);
     --font-1st: 'Lato', sans-serif;
     --font-2st: one-piece-font;
+    --font-3st: 'Bebas Neue', sans-serif;
+    --font-4st:'Phudu', sans-serif;
 
     --color-font-1st: #fefefe;
         --color-1st: rgba(230, 231, 232, 0.35);
     
-    --color-font-2st: rgba(65, 42, 30, 1);
+    --color-font-2st: rgba(38, 21, 11, 0.95);
         --color-2st: rgba(65, 42, 30, 0.55);/*Opacity*/
 
-    --color-font-3st: #f8de3c;
+    --color-font-3st: rgba(242, 190, 34, 1);
     --color-font-4st: #58acf4;
     --color-font-5st: #0b3075;
 
