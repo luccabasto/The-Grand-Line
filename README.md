@@ -3,7 +3,15 @@
 
 * As atualizações esta organizado a partir das atualizações mais recentes.
             
-    =============  TAREFA DE HOJE #03 - 31/10/23 Comeback =========> 
+          =========  TAREFA #04 - 05/11/23 ======>
+
+Desenvolvendo os trilhos de seleção de título. 
+
+
+
+
+
+         =============  TAREFA #03 - 31/10/23 Comeback =========> 
 
         Após um periodo afastado devido aos trabalhos da faculdade estou rotmando com projeto, irei finalizar os bottons e comecçar a desenvolver a barra de navegação.
 
@@ -24,8 +32,7 @@ Estou utilizando header para desenvolver toda a parte de navegação do menu.
 
 
 
-
-    =============== TAFERA DE HOJE #02 - 13/10/23 =================>=>=>
+        =============== TAFERA #02 - 13/10/23 =================>=>=>
 
  Os buttons não estavam me agradando, anteriomente tinha colocado como <a> como forma de acessar as "Mais informações", entretando após estudar um pouco ao longo do dia alterei para ambos serem um <button>. 
 
@@ -63,7 +70,7 @@ Para criar o contorno no Títilo - (arco) == Porém existe uma forma abreviada d
 Para o resultado desejado, utilizei o atributo "text-shadow", por conta da sua versatiidade. 
 
 
-    ========= TAFERA DE HOJE #01 - 12/10/23 =================>=>=>
+    ========= TAFERA #01 - 12/10/23 =================>=>=>
 
 
     Montando toda a estrutura principal do site, analisando a imagem de referência e montando a ideia. 

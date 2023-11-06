@@ -1,0 +1,44 @@
+.categorias{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(2, auto);
+    grid-row: 1/2;
+    grid-auto-flow: row;
+    position: absolute;
+    top: 37rem;
+    white-space:nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.minhaLista-img{
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    align-items: center;
+    position: relative; 
+   
+}
+
+.minhaLista-img img{
+    width: 16.25rem;
+    height: 7.75rem;
+    margin-right: 3px;
+    
+}
+
+.minhaLista-title{
+    color: var(--off-white);
+    font-size: 0.91rem;
+    text-align: justify;
+    padding: 13px;
+    margin-left: 25.70px;
+}
+
+div .minhaLista-plus{
+    background-color: red;
+}

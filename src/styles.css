@@ -1,5 +1,6 @@
 @import url(main.css);
 @import url(header.css);
+@import url(minhaLista.css);
 @font-face{
     font-family: one-piece-font;
     src: url(/src/OnePieceFont/one_piece_font.ttf);
@@ -51,9 +52,10 @@ input,select{vertical-align:middle}
     box-sizing: border-box;
     text-decoration: none;
     
+    
 }
 
-.app__background {
+.app__hero {
     height: 100vh;
     background-size: cover;
     background-image: linear-gradient( to bottom,
@@ -65,5 +67,8 @@ input,select{vertical-align:middle}
     var(--bg-img);
     padding: 0.26rem 0.75rem 0 0.75rem;
 
+}
+
+.app__background{
 }
 
