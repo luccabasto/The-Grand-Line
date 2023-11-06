@@ -2,6 +2,15 @@
 
 
 * As atualizações esta organizado a partir das atualizações mais recentes.
+
+          ========= TAREFA #05 - 06/11/23  ======>
+
+  Consegui desenvolver o trilho, implementei dois grupos seguindo determinado padrão grid e adicionei um hover padrão desse tipo de plataforma para trabalhar a irmersão da plataforma. 
+
+  * Notas: Desevolver em grid é interessante, irei replica-lo para o próximo trilho que irei desenvolver. 
+
+  ---faz bem práticar né.
+
             
           =========  TAREFA #04 - 05/11/23 ======>
 

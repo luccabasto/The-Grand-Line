@@ -1,11 +1,14 @@
 .categorias{
     display: grid;
-    grid-template-columns: repeat(5,20%);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(5,auto);
+    /*grid-template-rows: repeat(2, auto);
     grid-row: 1/2;
     grid-auto-flow: row;
+     - não precisei criar linha pois estava trabalhando apenass com colunas, e os dois grupos
+     estavam em divs distintas. */
+     
     position: absolute;
-    top: 37rem;
+    top: 47rem;
     white-space:nowrap;
     justify-content: center;
     align-items: center;
@@ -17,8 +20,8 @@
 .minhaLista-img{
     width: auto;
     height: auto;
-    margin-bottom: 2rem;
-    margin-left: 2.5rem;
+    margin-bottom: 1.95rem;
+    margin-left: 93px;
     align-items: center;
     position: relative; 
    
@@ -28,17 +31,25 @@
     width: 16.25rem;
     height: 7.75rem;
     margin-right: 3px;
-    
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.697);
+    border-radius: 7px;
+      
 }
+
+
 
 .minhaLista-title{
     color: var(--off-white);
-    font-size: 0.91rem;
+    font-size: 0.99rem;
     text-align: justify;
     padding: 13px;
-    margin-left: 25.70px;
+    margin-left: 4.91rem;
 }
 
-div .minhaLista-plus{
-    background-color: red;
+.minhaLista-img img:hover{
+    transform: scale(1.4);
+    transition: all ease-in-out 180ms;
+    
 }
+
+

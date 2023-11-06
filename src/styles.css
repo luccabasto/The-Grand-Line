@@ -36,12 +36,12 @@ input,select{vertical-align:middle}
         --color-2st: rgba(65, 42, 30, 0.55);/*Opacity*/
 
     --color-font-3st: rgba(242, 190, 34, 1);
-    --color-font-4st: #58acf4;
+    --color-font-4st: #111A27;
     --color-font-5st: #0b3075;
 
     --off-white:#E6E7E8;
 
-    --color-black: rgba(35, 31, 32, 1);
+    --color-black: rgba(8, 8, 8, 1);
         --color-black-opa:  rgba(35, 31, 32, 0.55) ;
 
 }
@@ -62,13 +62,19 @@ input,select{vertical-align:middle}
     rgba(0, 0, 0, 0.9) 5%,
     rgba(0, 0, 0, 0.2) 20%,
     rgba(0, 0, 0, 0.2) 80%,
-    rgba(0, 0, 0, 0.8) 100%
+    rgba(0, 0, 0, 0.8) 95%
     ),
     var(--bg-img);
     padding: 0.26rem 0.75rem 0 0.75rem;
 
 }
-
-.app__background{
+body{
+    background-color: var(--color-font-4st);
+    background-image: linear-gradient( to bottom,
+    rgba(0, 0, 0, 0.9) 10%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.2) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+    )
+    
 }
-
