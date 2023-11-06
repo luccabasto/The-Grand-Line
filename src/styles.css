@@ -23,7 +23,7 @@ input,select{vertical-align:middle}
 
 
 :root{
-    --bg-img: url(/src/img/marine_ford_capa.jpg);
+    --bg-img: url(img/marine_ford_capa.jpg);
     --font-1st: 'Lato', sans-serif;
     --font-2st: one-piece-font;
     --font-3st: 'Bebas Neue', sans-serif;
