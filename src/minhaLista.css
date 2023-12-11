@@ -7,8 +7,8 @@
      - não precisei criar linha pois estava trabalhando apenass com colunas, e os dois grupos
      estavam em divs distintas. */
      
-    position: absolute;
-    top: 47rem;
+    position: relative;
+    top: 24rem;
     white-space:nowrap;
     justify-content: center;
     align-items: center;
@@ -16,40 +16,45 @@
 }
 
 
-
-.minhaLista-img{
+.container{
     width: auto;
     height: auto;
     margin-bottom: 1.95rem;
-    margin-left: 93px;
     align-items: center;
     position: relative; 
    
 }
 
-.minhaLista-img img{
-    width: 16.25rem;
+.Lista-img img{
+    width: 14rem;
     height: 7.75rem;
-    margin-right: 3px;
+    margin-right: 5px;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.697);
     border-radius: 7px;
       
 }
-
-
-
-.minhaLista-title{
-    color: var(--off-white);
-    font-size: 0.99rem;
-    text-align: justify;
-    padding: 13px;
-    margin-left: 4.91rem;
-}
-
-.minhaLista-img img:hover{
+.Lista-img img:hover{
     transform: scale(1.4);
     transition: all ease-in-out 180ms;
     
 }
+
+
+.Lista-title{
+    color: var(--off-white);
+    font-size: 0.99rem;
+    text-align:left;
+    padding: 13px 0;
+}
+
+/*.nav_bar-3 {
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    
+
+}*/
+
+
+
 
 
