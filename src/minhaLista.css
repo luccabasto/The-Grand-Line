@@ -20,6 +20,7 @@
     width: auto;
     height: auto;
     margin-bottom: 1.95rem;
+
     align-items: center;
     position: relative; 
    
@@ -49,10 +50,57 @@
 
 /*.nav_bar-3 {
     display: grid;
-    grid-template-columns:repeat(3, auto);
+    grid-template-columns:repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
     
+} */
 
-}*/
+div section #section1, 
+            #section2, 
+            #section3{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+.item{
+     padding: 0 2px;
+     transition:  250ms all;
+}
+
+    .-animation:hover {
+        margin: 0 40px;
+        transform: scale(1.2);
+    }
+
+    .item img{
+        
+        padding-right:  5px;
+
+    }
+
+    .arrow__bnt{
+        position: absolute;
+        color: #fff;
+        text-decoration: none;
+        font-size: 6em;
+        background: rgb(0, 0, 0);
+        width: 80px;
+        padding: 20px;
+        text-align: center;
+        z-index: 1;
+    }
+
+        .arrow__btn i{
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.637);
+        }
+
+
+        /*   NÃO PROSSEGUIR ATÉ SOLUCIONAR O PROBLEMA  */
 
 
 
