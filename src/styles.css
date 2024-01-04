@@ -1,6 +1,9 @@
 @import url(main.css);
 @import url(header.css);
 @import url(minhaLista.css);
+@import url(img-src.css);
+@import url(slider-src.css);
+
 @font-face{
     font-family: one-piece-font;
     src: url(/src/OnePieceFont/one_piece_font.ttf);
@@ -69,6 +72,8 @@ input,select{vertical-align:middle}
 
 }
 body{
+   
+    overflow-x: hidden;
     background-color: var(--color-font-4st);
     background-image: linear-gradient( to bottom,
     rgba(0, 0, 0, 0.9) 10%,
@@ -76,5 +81,6 @@ body{
     rgba(0, 0, 0, 0.2) 80%,
     rgba(0, 0, 0, 0.8) 100%
     )
+    
     
 }

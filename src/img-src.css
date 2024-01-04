@@ -1,0 +1,17 @@
+/* STYLES PARA DEFINIÇÕES DE IMAGENS*/
+
+.Lista-img img{
+    width: 14.65rem;
+    height: 7.75rem;
+    margin-right: 5px;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.697);
+    border-radius: 7px;
+      
+}
+.Lista-img img:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 180ms;
+    z-index: 1;
+    
+    
+}

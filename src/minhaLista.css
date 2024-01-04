@@ -1,12 +1,8 @@
+/* Div-pai Categorias*/
+
 .categorias{
     display: grid;
-    grid-template-columns: repeat(5,auto);
-    /*grid-template-rows: repeat(2, auto);
-    grid-row: 1/2;
-    grid-auto-flow: row;
-     - não precisei criar linha pois estava trabalhando apenass com colunas, e os dois grupos
-     estavam em divs distintas. */
-     
+    grid-template-columns: repeat(5,auto); 
     position: relative;
     top: 24rem;
     white-space:nowrap;
@@ -16,37 +12,34 @@
 }
 
 
-.container{
-    width: auto;
-    height: auto;
-    margin-bottom: 1.95rem;
+    .container{
+        width: auto;
+        height: auto;
+        margin-bottom: 1.95rem;
 
-    align-items: center;
-    position: relative; 
-    
-   
-}
-
-.Lista-img img{
-    width: 14rem;
-    height: 7.75rem;
-    margin-right: 5px;
-    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.697);
-    border-radius: 7px;
-      
-}
-.Lista-img img:hover{
-    transform: scale(1.4);
-    transition: all ease-in-out 180ms;
+        align-items: center;
+        position: relative; 
     
 }
 
+    .nav_bar .lista-Itens_img{
+        position: relative;
+        left: 3.15rem;
+        
+    }
 
-.Lista-title{
-    color: var(--off-white);
-    font-size: 0.99rem;
-    text-align:left;
-    padding: 13px 0;
+    .nav_bar img:nth-of-type(n + 1){
+    
+        margin-right: 1.01rem;
+    }
+
+        .Lista-title{
+            color: var(--off-white);
+            font-size: .99rem;
+            text-align:left;
+            position: relative;
+            left: 3.15rem;
+            padding: 20px 0;
 }
 
 /*.nav_bar-3 {
@@ -56,109 +49,6 @@
     scroll-behavior: smooth;
     
 } */
-
-.categorias section 
-                    #section1, 
-                    #section2, 
-                    #section3{
-            width: 100%;
-            position: relative;
-            display: grid;
-            grid-template-columns: repeat(5, auto);
-    
-            margin: 20px 0;
-            height: 200px;
-            z-index: 1;
-}
-
-.item{
-     padding: 0 2px;
-     transition:  250ms all;
-}
-
-    .item .-animation:hover {
-        margin: 0 40px;
-        transform: scale(1.2);
-    }
-
-    .item img{
-        padding-right:  5px;
-
-    }
-
-    .arrow__btn{
-        position: absolute;
-        color: #fff;
-        text-decoration: none;
-        font-size: 6em;
-        background: rgb(0, 0, 0);
-        width: 40px;
-        padding: 10px;
-        text-align: center;
-        z-index: 1;
-    }
-
-        .arrow__btn i{
-            font-size: 2rem;
-            color: rgba(255, 255, 255, 0.637);
-        }
-
-        .arrow__btn i:hover{
-            color: white;
-            transform: scale(1.15);
-        }
-
-        .arrow__btn:nth-of-type(1){
-            top: -16px;
-            bottom: -10px;
-            left: 0;
-            background: linear-gradient(
-                -90deg,
-                rgba(0, 0, 0, 0) 0%,
-                rgba(0, 0, 0, 1) 100%
-            );
-        }
-
-        .arrow__btn:nth-of-type(2){
-            top: -16px;
-            bottom: -10px;
-            left: 0;
-            background: linear-gradient(
-                -90deg,
-                rgba(0, 0, 0, 0) 0%,
-                rgba(0, 0, 0, 1) 100%
-            );
-        }
-
-        .wrapper{
-            width: auto;
-            height: auto;
-            margin-bottom: 1.95rem;
-
-            align-items: center;
-            position: relative; 
-
-            display: grid;
-            grid-template-columns: repeat(3, 100%);
-            overflow: hidden;
-
-            scroll-behavior: smooth;
-            clear: both;
-        }
-
-
-        .wrapper section img{
-            width: 14rem;
-            height: 7.75rem;
-            margin-right: 5px;
-            box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.697);
-            border-radius: 7px;
-
-            
-        }
-
-
-        /*   NÃO PROSSEGUIR ATÉ SOLUCIONAR O PROBLEMA  */
 
 
 
