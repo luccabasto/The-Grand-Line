@@ -60,6 +60,7 @@ input,select{vertical-align:middle}
 
 .app__hero {
     height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-image: linear-gradient( to bottom,
     rgba(0, 0, 0, 0.9) 5%,
